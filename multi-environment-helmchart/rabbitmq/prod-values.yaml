@@ -15,7 +15,7 @@ rabbitmq:
       rabbitmqDefaultUser: username
     image:
       repository: mcr.microsoft.com/azurelinux/base/rabbitmq-server
-      tag: "3.13"
+      tag: 3.13
     resources:
       limits:
         cpu: 250m
