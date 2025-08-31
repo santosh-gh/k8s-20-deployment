@@ -241,6 +241,10 @@
       kubectl apply -f ./argocd/applications/product-argocd-app.yaml -n argocd
       kubectl apply -f ./argocd/applications/store-front-argocd-app.yaml -n argocd    
 
+
+      kubectl apply -f ./argocd/applications/multi-env-multi-manifests-appset.yaml -n argocd
+      
+
       # Delete the services/apps
 
       kubectl delete -f ./argocd/applications/config-argocd-app.yaml -n argocd

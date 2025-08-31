@@ -24,7 +24,7 @@ spec:
       source:
         repoURL: https://github.com/santosh-gh/k8s-20-deployment.git
         targetRevision: HEAD
-        path: '{{path.basename}}'
+        path: '{{path}}'
         helm:
           valueFiles:
             - '{{env}}-values.yaml'
