@@ -9,7 +9,7 @@ storeFront:
   storeFront:
     image:
       repository: acronlinestoredevuksouth001.azurecr.io/store-front
-      tag: 657
+      tag: 658
     resources:
       limits:
         cpu: "1"
