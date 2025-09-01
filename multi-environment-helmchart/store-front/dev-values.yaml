@@ -8,7 +8,7 @@ storeFront:
   replicas: 1
   storeFront:
     image:
-      repository: e880613/store-front
+      repository: acronlinestoredevuksouth001.azurecr.io/store-front
       tag: v1
     resources:
       limits:

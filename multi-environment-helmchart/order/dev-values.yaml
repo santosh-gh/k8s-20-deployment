@@ -11,7 +11,7 @@ orderService:
       orderQueuePort: "5672"
       orderQueueUsername: username
     image:
-      repository: e880613/order
+      repository: acronlinestoredevuksouth001.azurecr.io/order
       tag: v1
     resources:
       limits:
