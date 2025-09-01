@@ -256,3 +256,22 @@
 # Sync the Application
 
     After creating the application, you will see it listed on the dashboard. 
+
+
+    acronlinestoredevuksouth001.azurecr.io
+
+
+
+    k get cm -n argocd 
+    k describe cm argocd-cm -n argocd
+
+    configmap.yaml
+    kubectl apply -f configmap.yaml -n argocd
+
+
+    k rollout restart deploy argocd-repo-server -n argocd
+    k rollout restart sts argocd-application-controller
+
+    k describe cm argocd-cm -n argocd
+
+    
