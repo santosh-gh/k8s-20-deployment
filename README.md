@@ -1,4 +1,4 @@
-# Part 19: Deploying microservice applications in AKS using ArgoCD and Azure Pipeline
+# Part 20: Deploying microservice applications in AKS using ArgoCD, Kustomize and Azure Pipeline
 
     Part1:   Manual Deployment (AzCLI + Docker Desktop + kubectl)  
     GitHub:  https://github.com/santosh-gh/k8s-01
@@ -172,6 +172,15 @@
 
     GitHub:  https://github.com/santosh-gh/k8s-19-development.git     
     GitHub:  https://github.com/santosh-gh/k8s-19-deployment.git
+    YouTube: https://www.youtube.com/watch?v=GYMY4ZQ7V9o&list=PLr6ErUeFySVug9VG73_W2MypRez_ZycWh&index=16
+
+    Part20: ArgoCD (Automate deployment using Azure Pipeline)
+            Create Argo CD applications using manifests 
+            CRD - ApplicationSet
+            Automate deployment using Azure Pipeline
+
+    GitHub:  https://github.com/santosh-gh/k8s-20-development.git     
+    GitHub:  https://github.com/santosh-gh/k8s-20-deployment.git
     YouTube: https://www.youtube.com/watch?v=GYMY4ZQ7V9o&list=PLr6ErUeFySVug9VG73_W2MypRez_ZycWh&index=16
 
 # Architesture
