@@ -12,7 +12,7 @@ orderService:
       orderQueueUsername: username
     image:
       repository: acronlinestoredevuksouth001.azurecr.io/order
-      tag: v1
+      tag: 655
     resources:
       limits:
         cpu: 75m
